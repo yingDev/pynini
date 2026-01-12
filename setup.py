@@ -30,8 +30,8 @@ COMPILE_ARGS = [
     "-std=c++17",
     #"-Wno-register",
     #"-Wno-deprecated-declarations",
-    "-Wno-unused-function",
-    "-Wno-unused-local-typedefs",
+    #"-Wno-unused-function",
+    #"-Wno-unused-local-typedefs",
     "-funsigned-char",
 ]
 if sys.platform.startswith("darwin"):
